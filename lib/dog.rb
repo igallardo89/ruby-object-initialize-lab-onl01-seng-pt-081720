@@ -1,15 +1,8 @@
 class Dog 
-  def initialize(name,breed)
+  def initialize(name)
     @naame= name
-    @breed= breed
-  end
-  def breed
-    @breed
   end
   def name
     @name
   end
 end 
-
-
-fido = Dog.new("Mutt")
